@@ -2,10 +2,12 @@ import '../style/home.css';
 import coverImage from '../assets/images/3d-burger-nobg.png';
 
 const content = document.getElementById("content");
+content.innerHTML = '';
+
 
 function createHome() {
     const container = document.createElement("div");
-    container.classList.add("container");
+    container.classList.add("container-home");
 
     const textContainer = document.createElement("div");
     textContainer.classList.add('text-container');
