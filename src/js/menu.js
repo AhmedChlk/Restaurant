@@ -21,6 +21,7 @@ function displayMenu(burgers) {
         burgerDescription.textContent = burger.description;
 
         const burgerPrice = document.createElement('p');
+        burgerPrice.classList.add('burger-price');
         burgerPrice.textContent = `$${burger.price.toFixed(2)}`;
 
         burgerCard.appendChild(burgerImage);
