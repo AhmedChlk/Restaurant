@@ -1,0 +1,36 @@
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content:flex-start;
+    padding: 20px;
+}
+
+.burger-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.burger-card img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+}
+
+.burger-card h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.burger-card p {
+    font-family: 'Open Sans', sans-serif;
+    margin: 5px 0;
+    color: #666;
+}

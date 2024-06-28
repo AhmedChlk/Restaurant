@@ -1,0 +1,19 @@
+{
+    "burgers": [
+        {
+            "name": "Burger Classique",
+            "description": "Un burger classique avec de la laitue, de la tomate et du fromage.",
+            "price": 8.99
+        },
+        {
+            "name": "Burger au Poulet",
+            "description": "Un délicieux burger avec du poulet grillé et du fromage fondu.",
+            "price": 10.99
+        },
+        {
+            "name": "Burger Végétarien",
+            "description": "Un burger végétarien sain avec un mélange de légumes frais.",
+            "price": 9.99
+        }
+    ]
+}
