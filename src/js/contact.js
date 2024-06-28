@@ -1,7 +1,6 @@
 import '../style/contact.css';
 
 const content = document.getElementById("content");
-content.innerHTML = '';
 
 function createContact() {
     const container = document.createElement("div");

@@ -2,7 +2,7 @@ import '../style/home.css';
 import coverImage from '../assets/images/3d-burger-nobg.png';
 
 const content = document.getElementById("content");
-content.innerHTML = '';
+
 
 
 function createHome() {
@@ -36,8 +36,8 @@ function createHome() {
     const image = document.createElement("img");
     image.src = coverImage;
     image.alt = "Hamburger Image";
-
     imageContainer.appendChild(image);
+
     container.appendChild(textContainer);
     container.appendChild(imageContainer);
     content.appendChild(container);

@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Lobster';
+    src: url(../assets/fonts/Lobster/Lobster-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open-sans';
+    src: url(../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.about-container {
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+
+.about-text-container {
+    width: 50%;
+    height: 100%;
+    color: #f5f5f5;
+    
+}
+.about-text-container h1{
+    font-family: 'Lobster';
+    padding: 0 50px;
+    font-size: 3rem;
+    margin: 15px;
+    
+}
+.about-text-container p{
+    font-family: 'Open-sans';
+    font-size: 1rem;
+    padding: 0px 10%;
+    margin: 25px 15px;
+    line-height: 20px;
+}
+.about-image-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 200;
+}
+
+.about-image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
